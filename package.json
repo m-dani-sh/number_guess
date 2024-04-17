@@ -1,0 +1,23 @@
+{
+  "name": "md88-number-guessed",
+  "version": "1.0.2",
+  "description": "CLI based Number Guessing",
+  "main": "index.js",
+  "type": "module",
+  "bin":"index.js",
+  "publishConfig":{
+    "acess":"public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
